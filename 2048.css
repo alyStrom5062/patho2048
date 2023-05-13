@@ -1,10 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: palevioletred;
     text-align: center;
-}
-
-hr {
-    width: 500px;
 }
 
 #board {
@@ -32,69 +29,69 @@ hr {
 }
 
 
-/* colored tiles */
+/* Tiles */
 
-.x2 {
-    background-color: #eee4da;
-    color: #727371;
-}
+    /* 1: Daniil*/
+    .x2 {
+        background-image: url("assets/daniil.png");
+    }
 
-.x4 {
-    background-color: #ece0ca;
-    color: #727371;
-}
+    /* 2: Peter*/
+    .x4 {
+        background-image: url("assets/peter.png");
+    }
 
-.x8 {
-    background-color: #f4b17a;
-    color: white;
-}
+    /* 3: Andrey */
+    .x8 {
+        background-image: url("assets/andrey.png");
+    }
 
-.x16{
-    background-color: #f59575;
-    color: white;
-}
+    /* 4: Eva */
+    .x16{
+        background-image: url("assets/eva.png");
+    }
 
-.x32{
-    background-color: #f57c5f;
-    color: white;
-}
+    /* 5: Yulia*/
+    .x32{
+        background-image: url("assets/yulia.png");
+    }
 
-.x64{
-    background-color: #f65d3b;
-    color: white;
-}
+    /* 6: Maria*/
+    .x64{
+        background-image: url("assets/maria.png");
+    }
 
-.x128{
-    background-color: #edce71;
-    color: white;
-}
+    /* 7: Khan*/
+    .x128{
+        background-image: url("assets/khan.png");
+    }
 
-.x256{
-    background-color: #edcc63;
-    color: white;
-}
+    /* 8: Grace*/
+    .x256{
+        background-image: url("assets/grace.png");
+    }
 
-.x512{
-    background-color: #edc651;
-    color: white;
-}
+    /* 9: Klara */
+    .x512{
+        background-image: url("assets/klara.png");
+    }
 
-.x1024{
-    background-color: #eec744;
-    color: white;
-}
+    /* 10: Sticky*/
+    .x1024{
+        background-image: url("assets/sticky.png");
+    }
 
-.x2048{
-    background-color: #ecc230;
-    color: white;
-}
+    /* 11: Murky*/
+    .x2048{
+        background-image: url("assets/murky.png");
+    }
 
-.x4096 {
-    background-color: #fe3d3d;
-    color: white;
-}
+    /* 12: Artemy */
+    .x4096 {
+        background-image: url("assets/artemy.png");
+    }
 
-.x8192 {
-    background-color: #ff2020;
-    color: white;
-}
+    /* 13: Aglaya */
+    .x8192 {
+        background-image: url("assets/aglaya.png");
+    }
